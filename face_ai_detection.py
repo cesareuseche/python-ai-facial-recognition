@@ -27,14 +27,14 @@ while True:
 
     #Draw rectangles around the faces
     for (x, y, w, h) in face_coordinates:
-        cv2.rectangle(frame, (x, y), (x+w, y+h), (randrange(256), randrange(256), randrange(256)), 5 )
+        cv2.rectangle(frame, (x, y), (x+w, y+h), (0,255, 0), 5 )
 
     # Display the images with the faces
     cv2.imshow('My face Detector', frame)
     key = cv2.waitKey(1)
 
     # Stops if Q key is pressed
-    if key==81 or==113:
+    if key==81 or key==113:
         break   
 # Release VideoCapture object
 webcam.release()

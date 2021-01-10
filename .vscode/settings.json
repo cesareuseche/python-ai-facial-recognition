@@ -1,3 +1,6 @@
 {
-    "python.pythonPath": "/Users/cesar/Desktop/devs/python-ai-facial-recognition/.venv/bin/python3.9"
+    "python.pythonPath": "/Users/cesar/Desktop/devs/python-ai-facial-recognition/.venv/bin/python3.9",
+    "python.linting.pylintArgs": [
+        "--generate-members"
+    ]
 }
